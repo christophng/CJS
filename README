@@ -1,0 +1,19 @@
+CJS = Chris' Jumping Simulator
+
+Features:
+Good (frustrating at times) collision detection; you're only allowed on the top of a surface, never on the sides/edges.
+When falling, you can fall straight down and clip an edge so be careful.
+Fixed camera that only moves on y-axis with you.
+Player bounds are set by the camera's viewports.
+Jumping!
+Controls are just A/D/Space or ARROW-L/ARROW-R/Space.
+Level speed/jump etc. are all configurable.
+Timer.
+Pausing.
+Restarting levels is quick to allow multiple runs to be made in a shorter amount of time.
+Simple graphics.
+Goal block (BLACK BLOCK)
+
+Had trouble implementing:
+The Goal canvas (initiated after triggering the goal block) just wouldnt work even though all other canvasses would. So instead it gives you the same screen as if you hit any other regular obstacle block.
+Music sync was too hard to figure out for now.
